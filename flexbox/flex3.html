@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>align-content</title>
+    <style>
+        .flexbox{
+            display: flex;
+            flex-wrap: wrap;
+            height: 600px;
+            background-color: aqua;
+            overflow: scroll;
+            /* align-content: center; */
+            /* align-content:space-around; */
+            /* align-content: flex-end; */
+            /* align-content: flex-start; */
+                align-content: space-between;
+                /* align-content: space-evenly; */
+                /* align-content: stretch; */
+
+
+        }
+        .flexbox > div{
+            width: 100px;
+            margin: 30px;
+            background-color: yellow;
+            line-height: 75px;
+            text-align: center;
+            font-size: 30px;
+
+
+        }
+    </style>
+</head>
+<body>
+    
+    <h2>flexbox</h2>
+    <div class="flexbox">
+        <div>one</div>
+        <div>two</div>
+        <div>three</div>
+        <div>four</div>
+        <div>five</div>
+        <div>six</div>
+        <div>seven</div>
+        <div>eight</div>
+        <div>nine</div>
+        <div>ten</div>
+        <div>eleven</div>
+        <div>twelve</div>
+       
+        
+       
+        
+
+    </div>
+</body>
+
+</html>

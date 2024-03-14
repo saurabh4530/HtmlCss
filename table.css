@@ -1,0 +1,23 @@
+table,th,td{
+    border: 1px solid red;
+    background-color: aliceblue;
+    border-collapse: collapse;
+
+    border-style: dotted;
+    
+}
+table{
+    width: 300px;
+    height: 350px;
+    text-align: center;
+}
+th{
+    background-color: blueviolet;
+}
+td:hover{
+    background-color: red;
+
+}
+td:nth-child(even){
+    background-color: antiquewhite;
+}

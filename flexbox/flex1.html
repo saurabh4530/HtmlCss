@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+
+    <style>h2{
+        text-align: center;
+        font-size: 60px;
+    }
+    h3{
+        font-size: 20px;
+    }
+       
+            .flexbox{
+                border:2px solid brown;
+               
+                background-color: aqua;
+     
+                display: flex;
+                /* flex-direction: column; */
+                /* flex-direction: column-reverse; */
+                /* flex-direction: row-reverse; */
+                flex-direction: row;
+                flex-wrap: wrap;
+                /* flex-wrap: wrap-reverse; */
+                /* flex-wrap: nowrap; */
+                justify-content: center;
+                    /* justify-content: flex-start; */
+                    /* justify-content: flex-end; */
+                    /* justify-content: space-around; */
+                    /* justify-content: space-between; */
+                    /* justify-content: space-evenly; */
+
+            }
+            .flexbox > div{
+                margin: 35px;
+                line-height: 75px;
+               width: 100px;
+               text-align: center;
+                background-color:orange;
+                font-size: 30px;
+
+                
+               
+            }
+    </style>
+</head>
+
+<body> <h2>flexbox</h2>
+    <div class="flexbox">
+        <div>one</div>
+        <div>two</div>
+        <div>three</div>
+        <div>four</div>
+        <div>five</div>
+        <div>six</div>
+        <div>seven</div>
+        <div>eight</div>
+        <div>nine</div>
+        <div>ten</div>
+        <div>eleven</div>
+        <div>twelve</div>
+       
+        
+       
+        
+
+    </div>
+</body>
+
+</html>
